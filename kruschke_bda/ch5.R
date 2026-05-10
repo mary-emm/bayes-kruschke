@@ -1,7 +1,7 @@
 source("kruschke_bda/DBDA2Eprograms/DBDA2E-utilities.R")
 source("kruschke_bda/DBDA2Eprograms/BernGrid.R")
 
-Thetha = seq(0,1, length =1001) # specify the comb for thetha or in other words, all the thetha we want to consider
+Thetha = seq(0,1, length =11) # specify the comb for thetha or in other words, all the thetha we want to consider
 print(Thetha)
 
 pTheta = pmin(Thetha , 1-Thetha) #triangular sha
